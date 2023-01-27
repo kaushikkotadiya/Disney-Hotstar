@@ -71,6 +71,26 @@ videoCards.forEach((item) => {
     });
 });
 
+// Disney
+document.getElementById('disney').addEventListener('click',()=>{
+  window.location.href='https://www.hotstar.com/in/channels/disney'
+});
+
+document.getElementById('pixar').addEventListener('click',()=>{
+  window.location.href='https://www.hotstar.com/in/channels/pixar'
+});
+
+document.getElementById('marvel').addEventListener('click',()=>{
+  window.location.href='https://www.hotstar.com/in/channels/marvel'
+});
+
+document.getElementById('star-wars').addEventListener('click',()=>{
+  window.location.href='https://www.hotstar.com/in/channels/star-wars'
+});
+
+document.getElementById('geographic').addEventListener('click',()=>{
+  window.location.href='https://www.hotstar.com/in/channels/nat-geo'
+});
 // Movie cards
 let cardContainers = [...document.querySelectorAll(".card-container")];
 let preBTns = [...document.querySelectorAll(".pre-btn")];
